@@ -33,7 +33,7 @@ import org.testng.annotations.AfterTest;
 public class AppiumSwipeTesting {
 
 	AndroidDriver driver;
-	boolean found=false;
+	boolean found = false;
 	WebElement foundEle;
 
 	/*
@@ -79,9 +79,7 @@ public class AppiumSwipeTesting {
 	}
 
 	@Test
-  public void swipeTest() throws InterruptedException{
-	  
-
+	public void swipeTest() throws InterruptedException {
 
 		WebElement ele = driver.findElement(By
 				.xpath("//android.widget.TextView[@text='Contacts']"));
@@ -90,12 +88,10 @@ public class AppiumSwipeTesting {
 		// act.longPress(ele).moveTo(driver.findElement(By.xpath("//android.widget.TextView[@text='Enter a name or phone number']"))).release().perform();
 		Thread.sleep(2000);
 
-		
-		
 		while (!found) {
-			
-			
-			List<WebElement> contact = driver.findElements(By.id("com.android.dialer:id/cliv_name_textview"));
+
+			List<WebElement> contact = driver.findElements(By
+					.id("com.android.dialer:id/cliv_name_textview"));
 			System.out.println(contact.size());
 
 			contact.forEach(elem -> {
@@ -103,29 +99,24 @@ public class AppiumSwipeTesting {
 				if (!name.equals("Abhishek")) {
 					System.out.println("Not found");
 					System.out.println(name);
-				    
-					
+
 				} else {
 
-					foundEle=elem;
+					foundEle = elem;
 					found = true;
-				
 
 				}
-				
 
 			});
-			if(!found)
-			driver.swipe(380, 980, 355, 275, 1000);
-			else{
+			if (!found)
+				driver.swipe(380, 980, 355, 275, 1000);
+			else {
 				foundEle.click();
 			}
 
 		}
-		
 
-	
-	  }
+	}
 
 	@BeforeTest
 	public void beforeTest() throws MalformedURLException {
