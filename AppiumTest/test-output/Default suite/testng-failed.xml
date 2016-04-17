@@ -3,13 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.apps.AppiumTest.AppiumTesting">
+      <class name="com.apps.AppiumTest.AppiumSwipeTesting">
         <methods>
-          <include name="afterTest"/>
-          <include name="swipeTest"/>
           <include name="beforeTest"/>
+          <include name="swipeTest"/>
         </methods>
-      </class> <!-- com.apps.AppiumTest.AppiumTesting -->
+      </class> <!-- com.apps.AppiumTest.AppiumSwipeTesting -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
