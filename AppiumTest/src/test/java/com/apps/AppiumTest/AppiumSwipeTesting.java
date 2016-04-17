@@ -36,47 +36,6 @@ public class AppiumSwipeTesting {
 	boolean found = false;
 	WebElement foundEle;
 
-	/*
-	 * @Test public void f() {
-	 * 
-	 * //
-	 * driver.findElement(By.id("com.android.mms:id/action_compose_new")).click
-	 * (); //
-	 * driver.findElement(By.id("com.android.mms:id/recipients_editor")).click
-	 * (); //
-	 * driver.findElement(By.id("com.android.mms:id/recipients_editor")).sendKeys
-	 * ("8904577259");;
-	 * 
-	 * // ScrollAction sa=new ScrollAction((TouchScreen) new
-	 * TouchActions(driver), 12, 14); System.out.println("hvhbvgvhg");
-	 * JavascriptExecutor js = (JavascriptExecutor) driver; Map<String, String>
-	 * scrollObject = new HashMap<String, String>();
-	 * scrollObject.put("direction", "down"); js.executeScript("mobile: scroll",
-	 * scrollObject);
-	 * 
-	 * }
-	 */
-	@Test(enabled = false)
-	public void messageAppTest() {
-		String expectedph = "fsvdfvd";
-		driver.findElement(By.id("com.android.mms:id/floating_action_button"))
-				.click();
-		driver.findElement(By.id("com.android.mms:id/recipients_editor"))
-				.sendKeys(expectedph);
-		driver.findElement(By.id("com.android.mms:id/embedded_text_editor"))
-				.sendKeys("Hello new contact");
-		driver.findElement(By.id("com.android.mms:id/send_button_sms")).click();
-		// driver.findElement(By.id("android:id/up")).click();
-		String Error = driver.findElement(By.id("android:id/alertTitle"))
-				.getText();
-		Assert.assertEquals(Error, "Can't send message");
-		// String
-		// actualph=driver.findElement(By.xpath("//android.widget.TextView(1)[@text='"+expectedph+"']")).getText();
-		// driver.
-		// System.out.println(actualph);
-		// Assert.assertEquals(actualph, expectedph);
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-	}
 
 	@Test
 	public void swipeTest() throws InterruptedException {
@@ -137,19 +96,7 @@ public class AppiumSwipeTesting {
 		 * driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		 */
 
-		/*
-		 * DesiredCapabilities ds=new DesiredCapabilities();
-		 * ds.setCapability(MobileCapabilityType.APP_ACTIVITY,
-		 * "com.android.mms.ui.ConversationList");
-		 * ds.setCapability(MobileCapabilityType.APP_PACKAGE,
-		 * "com.android.mms");
-		 * ds.setCapability(MobileCapabilityType.DEVICE_NAME, "YT910LQ91K");
-		 * ds.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
-		 * ds.setCapability(MobileCapabilityType.PLATFORM_VERSION,"5.1.1");
-		 * driver=new AndroidDriver<AndroidElement>(new
-		 * URL("http://127.0.0.1:4723/wd/hub"),ds);
-		 * driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		 */
+		
 		DesiredCapabilities ds = new DesiredCapabilities();
 		ds.setCapability(MobileCapabilityType.APP_ACTIVITY,
 				"com.android.dialer.DialtactsActivity");
