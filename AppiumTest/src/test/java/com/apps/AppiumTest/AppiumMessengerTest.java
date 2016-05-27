@@ -26,6 +26,7 @@ import org.openqa.selenium.interactions.touch.ScrollAction;
 import org.openqa.selenium.interactions.touch.TouchActions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.Assert;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.AfterTest;
@@ -33,6 +34,7 @@ import org.testng.annotations.AfterTest;
 public class AppiumMessengerTest{
 
 	AndroidDriver driver;
+	
 	
 	@Test
 	public void messageAppTest() {
@@ -54,8 +56,9 @@ public class AppiumMessengerTest{
 
 	
 
+	@Parameters({"UdidOrDeviceName","MobileVersion","BrowserName"})
 	@BeforeTest
-	public void beforeTest() throws MalformedURLException {
+	public void beforeTest(String UdidOrDeviceName,String MobileVersion,String BrowserName) throws MalformedURLException {
 
 		// Caluculator
 		/*
@@ -78,13 +81,15 @@ public class AppiumMessengerTest{
 		  DesiredCapabilities ds=new DesiredCapabilities();
 		  ds.setCapability(MobileCapabilityType.APP_ACTIVITY,
 		  "com.android.mms.ui.ConversationList");
+		  ds.setCapability(MobileCapabilityType.BROWSER_NAME,BrowserName);
 		  ds.setCapability(MobileCapabilityType.APP_PACKAGE,"com.android.mms");
-		  ds.setCapability(MobileCapabilityType.DEVICE_NAME, "YT910LQ91K");
-		  ds.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
-		  ds.setCapability(MobileCapabilityType.PLATFORM_VERSION,"5.1.1");
-		  ds.setCapability("newCOmmandTimeout", 1000);
+		  ds.setCapability(MobileCapabilityType.DEVICE_NAME, UdidOrDeviceName);
+		  ds.setCapability(MobileCapabilityType.PLATFORM_NAME, "ANDROID");
+		  ds.setCapability(MobileCapabilityType.PLATFORM_VERSION,MobileVersion);
+		  ds.setCapability(MobileCapabilityType.UDID,UdidOrDeviceName);
+		  ds.setCapability("newCommandTimeout", 1000);
 		  driver=new AndroidDriver<AndroidElement>(new
-		  URL("http://127.0.0.1:4723/wd/hub"),ds);
+		  URL("http://192.168.0.104:4444/wd/hub"),ds);
 		  driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		 
 	
@@ -95,7 +100,7 @@ public class AppiumMessengerTest{
 	public void afterTest() {
 		
 		
-		driver.close();
+//		driver.close();
 	}
 
 }
