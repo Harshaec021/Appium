@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1467468679540" stop="1467468780793" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>TestsSuite : Test2[BrowserName=Emulator_5.1.0, MobileVersion=6.0.1, UdidOrDeviceName=192.168.0.100:5555]</name>
+    <title>TestsSuite : Test2[BrowserName=Emulator_5.1.0, MobileVersion=6.0.1, UdidOrDeviceName=192.168.0.100:5555]</title>
+    <test-cases>
+        <test-case start="1467468725016" stop="1467468779688" status="passed">
+            <name>messageAppTest</name>
+            <steps/>
+            <attachments>
+                <attachment title="messageAppTest" source="e00d00e3-447f-45a1-b8ba-e6db8fd701c1-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="story" value="ST-101"/>
+                <label name="feature" value="Multi Touch Framework"/>
+                <label name="host" value="Harsha"/>
+                <label name="thread" value="1032@Harsha.TestNG(12)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

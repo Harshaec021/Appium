@@ -1,0 +1,60 @@
+{
+  "time" : {
+    "start" : 1467465984198,
+    "stop" : 1467466865415,
+    "duration" : 881217
+  },
+  "testSuites" : [ {
+    "uid" : "8dfde8b9c5da7b08",
+    "name" : "TestsSuite : Test2[BrowserName=Emulator_5.1.0, MobileVersion=6.0.1, UdidOrDeviceName=192.168.0.100:5555]",
+    "title" : "TestsSuite : Test2[BrowserName=Emulator_5.1.0, MobileVersion=6.0.1, UdidOrDeviceName=192.168.0.100:5555]",
+    "time" : {
+      "start" : 1467465984198,
+      "stop" : 1467466865415,
+      "duration" : 881217
+    },
+    "statistic" : {
+      "total" : 3,
+      "passed" : 2,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 1
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "52b1147a3c618cda",
+      "name" : "messageAppTest",
+      "title" : "Message app test",
+      "time" : {
+        "start" : 1467465984198,
+        "stop" : 1467466021568,
+        "duration" : 37370
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "e700c3317d0cf1cf",
+      "name" : "messageAppTest",
+      "title" : "Message app test",
+      "time" : {
+        "start" : 1467466760183,
+        "stop" : 1467466865415,
+        "duration" : 105232
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "254332be89c37b27",
+      "name" : "messageAppTest",
+      "title" : "Message app test",
+      "time" : {
+        "start" : 1467466346096,
+        "stop" : 1467466369119,
+        "duration" : 23023
+      },
+      "severity" : "NORMAL",
+      "status" : "BROKEN"
+    } ]
+  } ]
+}

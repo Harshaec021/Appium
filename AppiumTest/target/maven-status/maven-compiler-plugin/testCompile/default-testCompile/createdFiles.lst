@@ -1,0 +1,14 @@
+com\apps\AppiumTest\TestNgTestBase.class
+com\apps\AppiumTest\DragAndDropTest.class
+com\apps\AppiumTest\CalenderTask.class
+com\apps\AppiumTest\AppiumSwipeTesting.class
+com\apps\AppiumTest\AppiumMessengerTest.class
+com\apps\AppiumTest\util\PropertyLoader.class
+com\apps\AppiumTest\ApiDemoTest.class
+com\apps\AppiumTest\MultiTouchSwipe.class
+com\apps\AppiumTest\AppiumGalleryPinchOutTest.class
+com\apps\AppiumTest\pages\Page.class
+com\apps\AppiumTest\pages\HomePage.class
+com\apps\AppiumTest\SampleTestNgTest.class
+com\apps\AppiumTest\AppiumAppMenuSwipeTest.class
+com\apps\AppiumTest\AppiumActualSwipeTest.class

@@ -26,14 +26,16 @@ public class AppiumAppMenuSwipeTest {
 	AndroidDriver<AndroidElement> driver;
 
 	@Test
-	public void f() throws IOException {
+	public void f() throws IOException, InterruptedException {
 
 		WebDriverWait wait = new WebDriverWait(driver, 10000);
 		wait.until(ExpectedConditions.elementToBeClickable(By
 				.xpath("//android.widget.TextView[@text='Data usage']")));
+		driver.findElement(By.xpath("//android.widget.TextView[@text='Data usage']")).click();
 //		TouchAction ta=new TouchAction(driver);
 //		ta.longPress(366, 990).
 //		driver.swipe(366, 990, 450, 270, 5);
+		Thread.sleep(1000);
 File file=driver.getScreenshotAs(OutputType.FILE);
 
 FileUtils.moveFileToDirectory(file, new File("G:/Selenium2/Appium/AppiumScrenShots"), true);
@@ -51,7 +53,7 @@ FileUtils.moveFileToDirectory(file, new File("G:/Selenium2/Appium/AppiumScrenSho
 		ds.setCapability(MobileCapabilityType.DEVICE_NAME, "YT910LQ91K");
 		ds.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
 		ds.setCapability(MobileCapabilityType.PLATFORM_VERSION, "5.1.1");
-		ds.setCapability("newCommandTimeout", 1000);
+		ds.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, 5);
 		driver = new AndroidDriver<AndroidElement>(new URL(
 				"http://127.0.0.1:4723/wd/hub"), ds);
 		driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
