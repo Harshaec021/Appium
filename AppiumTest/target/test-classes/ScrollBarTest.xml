@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestsSuite1" parallel="tests" thread-count="2"	verbose="5" allow-return-values="true">
+	<test name="Test1" enabled="=false">
+		<parameter name="UdidOrDeviceName" value="192.168.0.100:5555"></parameter>
+		<parameter name="MobileVersion" value="6.0.1"></parameter>
+		<parameter name="BrowserName" value="Sony_Xperia_SP"></parameter>
+		<classes>
+			<class name="com.apps.AppiumTest.ScrollBar" />
+		</classes>
+	</test>
+	<test name="Test2" enabled="true">
+		<parameter name="UdidOrDeviceName" value="192.168.0.103:5555"></parameter>
+		<parameter name="MobileVersion" value="6.0.1"></parameter>
+		<parameter name="BrowserName" value="Emulator_5.1.0"></parameter>
+		<classes>
+			<class name="com.apps.AppiumTest.ScrollBar" />
+		</classes>
+	</test>
+</suite>

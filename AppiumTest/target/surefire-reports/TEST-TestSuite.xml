@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="131.122" tests="3" errors="0" skipped="2" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_65\jre\bin"/>
+    <property name="java.vm.version" value="25.65-b01"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="$M3_HOME"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="G:\Selenium2\GIT\Appium\AppiumTest"/>
+    <property name="java.runtime.version" value="1.8.0_65-b17"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_65\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Harsha\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="G:\Selenium2\Kepler_WorkSpace_New\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf3121313348820510874.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_65\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_71/bin/server;C:/Program Files/Java/jre1.8.0_71/bin;C:/Program Files/Java/jre1.8.0_71/lib/amd64;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Broadcom\Broadcom 802.11 Network Adapter;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Java\jdk1.8.0_65\bin;C:\Program Files (x86)\Apache Software\apache-maven-3.3.3\bin;C:\Program Files (x86)\Java\jre1.8.0_71\bin;G:\Selenium2\NodeJS\;C:\Users\Harsha\AppData\Local\Android\sdk\tools;C:\Users\Harsha\AppData\Local\Android\sdk\platform-tools;search-ms:displayname=Search%20Results%20in%20plugins&amp;crumb=location:F%3A%5CSoftware%5Ceclipse-jee-kepler-SR2-win32-x86_64%5Ceclipse%5Cplugins\org.apache.ant_1.8.4.v201303080030;C:\Users\Harsha\AppData\Local\Android\sdk\build-tools\21.1.2;F:\Software\sqldeveloper-4.1.3.20.78-no-jre\sqldeveloper;F:\Software\eclipse-jee-kepler-SR2-win32-x86_64\eclipse;G:\MongoDB\mongodb-win32-x86_64-3.0.7\mongodb-win32-x86_64-3.0.7\bin;C:\Program Files (x86)\Jet;C:\Program Files (x86)\Appium\node_modules\appium\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\nodejs;C:\Program Files\nodejs\;C:\Program Files (x86)\Brackets\command;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Broadcom\Broadcom 802.11 Network Adapter;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Java\jdk1.8.0_65\bin;C:\Program Files (x86)\Apache Software\apache-maven-3.3.3\bin;C:\Program Files (x86)\Java\jre1.8.0_65\bin;C:\Users\Harsha\AppData\Local\Programs\Git\cmd;C:\Users\Harsha\AppData\Roaming\npm;F:\Software\eclipse-jee-kepler-SR2-win32-x86_64\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Harsha"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Harsha"/>
+    <property name="java.class.path" value="C:\Program Files (x86)\Apache Software\apache-maven-3.3.3\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_65\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -B -s F:\Software\apache-maven-3.3.3-bin\apache-maven-3.3.3\conf\settings.xml test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_65"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_65\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_65\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files (x86)\Apache Software\apache-maven-3.3.3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="maven.bootclasspath" value="C:\Program Files (x86)\Apache Software\apache-maven-3.3.3\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="beforeTest" classname="com.apps.AppiumTest.ApiDemoTest" time="131.122">
+    <failure message="A new session could not be created. (Original error: Could not find a connected Android device.) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 41.46 seconds&#10;Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593cfc3689a7fcd7be52549167e5ccc93ad28&apos;, time: &apos;2016-02-11 11:22:43&apos;&#10;System info: host: &apos;Harsha&apos;, ip: &apos;192.168.136.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_65&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: A new session could not be created. (Original error: Could not find a connected Android device.) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 41.46 seconds
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'Harsha', ip: '192.168.136.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
+Driver info: io.appium.java_client.android.AndroidDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:144)
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:37)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:162)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:171)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:72)
+	at com.apps.AppiumTest.ApiDemoTest.beforeTest(ApiDemoTest.java:94)
+]]></failure>
+    <system-out><![CDATA[&amp#27;[36minfo&amp#27;[39m: Welcome to Appium v1.4.16 (REV ae6877eff263066b26328d457bd285c0cc62430d)
+&amp#27;[36minfo&amp#27;[39m: Appium REST http interface listener started on 0.0.0.0:4728
+&amp#27;[36minfo&amp#27;[39m: [debug] Non-default server args: {"port":4728,"bootstrapPort":1234}
+&amp#27;[36minfo&amp#27;[39m: Console LogLevel: debug
+&amp#27;[36minfo&amp#27;[39m: &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/wd/hub/status&amp#27;[39m &amp#27;[90m{}&amp#27;[39m
+&amp#27;[36minfo&amp#27;[39m: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.16","revision":"ae6877eff263066b26328d457bd285c0cc62430d"}}}
+&amp#27;[36minfo&amp#27;[39m: &amp#27;[37m<-- GET /wd/hub/status &amp#27;[39m&amp#27;[32m200&amp#27;[39m&amp#27;[90m 20.902 ms - 105&amp#27;[39m &amp#27;[90m{"status":0,"value":{"build":{"version":"1.4.16","revision":"ae6877eff263066b26328d457bd285c0cc62430d"}}}&amp#27;[39m
+&amp#27;[36minfo&amp#27;[39m: &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session&amp#27;[39m &amp#27;[90m{"desiredCapabilities":{"appActivity":"io.appium.android.apis.ApiDemos","appPackage":"io.appium.android.apis","newCommandTimeout":30,"platformVersion":"5.1.0","autoDismissAlerts":false,"platformName":"Android","udid":"192.168.0.101:5555","deviceName":"192.168.0.101:5555"}}&amp#27;[39m
+&amp#27;[36minfo&amp#27;[39m: Client User-Agent string: Apache-HttpClient/4.3.3 (java 1.5)
+&amp#27;[36minfo&amp#27;[39m: [debug] Didn't get app but did get Android package, will attempt to launch it on the device
+&amp#27;[36minfo&amp#27;[39m: [debug] Creating new appium session e0e6e025-1a83-49f5-b306-2fb0a7bd753a
+&amp#27;[36minfo&amp#27;[39m: Starting android appium
+&amp#27;[36minfo&amp#27;[39m: [debug] Getting Java version
+&amp#27;[36minfo&amp#27;[39m: Java version is: 1.8.0_71
+&amp#27;[36minfo&amp#27;[39m: [debug] Checking whether adb is present
+&amp#27;[36minfo&amp#27;[39m: [debug] Using adb from C:\Users\Harsha\AppData\Local\Android\sdk\platform-tools\adb.exe
+&amp#27;[33mwarn&amp#27;[39m: No app capability, can't parse package/activity
+&amp#27;[36minfo&amp#27;[39m: [debug] Using fast reset? true
+&amp#27;[36minfo&amp#27;[39m: [debug] Preparing device for session
+&amp#27;[36minfo&amp#27;[39m: [debug] Not checking whether app is present since we are assuming it's already on the device
+&amp#27;[36minfo&amp#27;[39m: Retrieving device
+&amp#27;[36minfo&amp#27;[39m: [debug] Trying to find a connected android device
+&amp#27;[36minfo&amp#27;[39m: [debug] Getting connected devices...
+&amp#27;[36minfo&amp#27;[39m: [debug] executing cmd: C:\Users\Harsha\AppData\Local\Android\sdk\platform-tools\adb.exe devices
+&amp#27;[36minfo&amp#27;[39m: [debug] 0 device(s) connected
+&amp#27;[36minfo&amp#27;[39m: [debug] Could not find devices, restarting adb server...
+&amp#27;[36minfo&amp#27;[39m: [debug] executing cmd: C:\Users\Harsha\AppData\Local\Android\sdk\platform-tools\adb.exe kill-server
+&amp#27;[36minfo&amp#27;[39m: [debug] Getting connected devices...
+&amp#27;[36minfo&amp#27;[39m: [debug] executing cmd: C:\Users\Harsha\AppData\Local\Android\sdk\platform-tools\adb.exe devices
+&amp#27;[36minfo&amp#27;[39m: [debug] Could not find devices, restarting adb server...
+&amp#27;[36minfo&amp#27;[39m: [debug] executing cmd: C:\Users\Harsha\AppData\Local\Android\sdk\platform-tools\adb.exe kill-server
+&amp#27;[36minfo&amp#27;[39m: [debug] Getting connected devices...
+&amp#27;[36minfo&amp#27;[39m: [debug] executing cmd: C:\Users\Harsha\AppData\Local\Android\sdk\platform-tools\adb.exe devices
+&amp#27;[36minfo&amp#27;[39m: [debug] 0 device(s) connected
+&amp#27;[36minfo&amp#27;[39m: [debug] Could not find devices, restarting adb server...
+&amp#27;[36minfo&amp#27;[39m: [debug] executing cmd: C:\Users\Harsha\AppData\Local\Android\sdk\platform-tools\adb.exe kill-server
+&amp#27;[36minfo&amp#27;[39m: [debug] Getting connected devices...
+&amp#27;[36minfo&amp#27;[39m: [debug] executing cmd: C:\Users\Harsha\AppData\Local\Android\sdk\platform-tools\adb.exe devices
+&amp#27;[36minfo&amp#27;[39m: [debug] 0 device(s) connected
+&amp#27;[36minfo&amp#27;[39m: [debug] Could not find devices, restarting adb server...
+&amp#27;[36minfo&amp#27;[39m: [debug] executing cmd: C:\Users\Harsha\AppData\Local\Android\sdk\platform-tools\adb.exe kill-server
+&amp#27;[36minfo&amp#27;[39m: [debug] Getting connected devices...
+&amp#27;[36minfo&amp#27;[39m: [debug] executing cmd: C:\Users\Harsha\AppData\Local\Android\sdk\platform-tools\adb.exe devices
+&amp#27;[36minfo&amp#27;[39m: [debug] 0 device(s) connected
+&amp#27;[36minfo&amp#27;[39m: [debug] Could not find devices, restarting adb server...
+&amp#27;[36minfo&amp#27;[39m: [debug] executing cmd: C:\Users\Harsha\AppData\Local\Android\sdk\platform-tools\adb.exe kill-server
+&amp#27;[36minfo&amp#27;[39m: [debug] Getting connected devices...
+&amp#27;[36minfo&amp#27;[39m: [debug] executing cmd: C:\Users\Harsha\AppData\Local\Android\sdk\platform-tools\adb.exe devices
+&amp#27;[36minfo&amp#27;[39m: [debug] 0 device(s) connected
+&amp#27;[36minfo&amp#27;[39m: [debug] Sent shutdown command, waiting for UiAutomator to stop...
+&amp#27;[33mwarn&amp#27;[39m: UiAutomator did not shut down fast enough, calling it gone
+&amp#27;[36minfo&amp#27;[39m: [debug] Cleaning up android objects
+&amp#27;[36minfo&amp#27;[39m: [debug] Cleani&amp#27;ng u[p3 appium session
+1merror&amp#27;[39m: Failed to start an Appium session, err was: Error: Could not find a connected Android device.
+&amp#27;[36minfo&amp#27;[39m: [debug] Error: Could not find a connected Android device.
+    at [object Object].ADB.getDevicesWithRetry (C:\Program Files (x86)\Appium\node_modules\appium\node_modules\appium-adb\lib\adb.js:606:15)
+    at [object Object].androidCommon.prepareActiveDevice (C:\Program Files (x86)\Appium\node_modules\appium\lib\devices\android\android-common.js:400:12)
+    at [object Object].<anonymous> (C:\Program Files (x86)\Appium\node_modules\appium\lib\devices\android\android-common.js:326:26)
+    at C:\Program Files (x86)\Appium\node_modules\appium\node_modules\async\lib\async.js:607:21
+    at C:\Program Files (x86)\Appium\node_modules\appium\node_modules\async\lib\async.js:246:17
+    at iterate (C:\Program Files (x86)\Appium\node_modules\appium\node_modules\async\lib\async.js:146:13)
+    at C:\Program Files (x86)\Appium\node_modules\appium\node_modules\async\lib\async.js:157:25
+    at C:\Program Files (x86)\Appium\node_modules\appium\node_modules\async\lib\async.js:248:21
+    at C:\Program Files (x86)\Appium\node_modules\appium\node_modules\async\lib\async.js:612:34
+    at [object Object].androidCommon.ensureDeviceLocale (C:\Program Files (x86)\Appium\node_modules\appium\lib\devices\android\android-common.js:371:45)
+    at [object Object].androidCommon.prepareEmulator (C:\Program Files (x86)\Appium\node_modules\appium\lib\devices\android\android-common.js:364:10)
+    at [object Object].<anonymous> (C:\Program Files (x86)\Appium\node_modules\appium\lib\devices\android\android-common.js:325:26)
+    at C:\Program Files (x86)\Appium\node_modules\appium\node_modules\async\lib\async.js:607:21
+    at C:\Program Files (x86)\Appium\node_modules\appium\node_modules\async\lib\async.js:246:17
+    at iterate (C:\Program Files (x86)\Appium\node_modules\appium\node_modules\async\lib\async.js:146:13)
+    at C:\Program Files (x86)\Appium\node_modules\appium\node_modules\async\lib\async.js:157:25
+    at C:\Program Files (x86)\Appium\node_modules\appium\node_modules\async\lib\async.js:248:21
+    at C:\Program Files (x86)\Appium\node_modules\appium\node_modules\async\lib\async.js:612:34
+    at [object Object].androidCommon.checkAppPresent (C:\Program Files (x86)\Appium\node_modules\appium\lib\devices\android\android-common.js:336:5)
+    at [object Object].<anonymous> (C:\Program Files (x86)\Appium\node_modules\appium\lib\devices\android\android-common.js:324:26)
+    at C:\Program Files (x86)\Appium\node_modules\appium\node_modules\async\lib\async.js:607:21
+    at C:\Program Files (x86)\Appium\node_modules\appium\node_modules\async\lib\async.js:246:17
+    at iterate (C:\Program Files (x86)\Appium\node_modules\appium\node_modules\async\lib\async.js:146:13)
+    at async.eachSeries (C:\Program Files (x86)\Appium\node_modules\appium\node_modules\async\lib\async.js:162:9)
+    at _asyncMap (C:\Program Files (x86)\Appium\node_modules\appium\node_modules\async\lib\async.js:245:13)
+    at Object.mapSeries (C:\Program Files (x86)\Appium\node_modules\appium\node_modules\async\lib\async.js:228:23)
+    at Object.async.series (C:\Program Files (x86)\Appium\node_modules\appium\node_modules\async\lib\async.js:605:19)
+    at [object Object].androidCommon.prepareDevice (C:\Program Files (x86)\Appium\node_modules\appium\lib\devices\android\android-common.js:323:9)
+    at C:\Program Files (x86)\Appium\node_modules\appium\node_modules\async\lib\async.js:607:21
+    at C:\Program Files (x86)\Appium\node_modules\appium\node_modules\async\lib\async.js:246:17
+    at iterate (C:\Program Files (x86)\Appium\node_modules\appium\node_modules\async\lib\async.js:146:13)
+    at C:\Program Files (x86)\Appium\node_modules\appium\node_modules\async\lib\async.js:157:25
+    at C:\Program Files (x86)\Appium\node_modules\appium\node_modules\async\lib\async.js:248:21
+    at C:\Program Files (x86)\Appium\node_modules\appium\node_modules\async\lib\async.js:612:34
+    at [object Object].Android.initUiautomator (C:\Program Files (x86)\Appium\node_modules\appium\lib\devices\android\android.js:140:10)
+    at C:\Program Files (x86)\Appium\node_modules\appium\node_modules\async\lib\async.js:607:21
+    at C:\Program Files (x86)\Appium\node_modules\appium\node_modules\async\lib\async.js:246:17
+    at iterate (C:\Program Files (x86)\Appium\node_modules\appium\node_modules\async\lib\async.js:146:13)
+    at C:\Program Files (x86)\Appium\node_modules\appium\node_modules\async\lib\async.js:157:25
+    at C:\Program Files (x86)\Appium\node_modules\appium\node_modules\async\lib\async.js:248:21
+    at C:\Program Files (x86)\Appium\node_modules\appium\node_modules\async\lib\async.js:612:34
+    at [object Object].androidCommon.packageAndLaunchActivityFromManifest (C:\Program Files (x86)\Appium\node_modules\appium\lib\devices\android\android-common.js:670:12)
+    at C:\Program Files (x86)\Appium\node_modules\appium\node_modules\async\lib\async.js:607:21
+    at C:\Program Files (x86)\Appium\node_modules\appium\node_modules\async\lib\async.js:246:17
+    at iterate (C:\Program Files (x86)\Appium\node_modules\appium\node_modules\async\lib\async.js:146:13)
+    at C:\Program Files (x86)\Appium\node_modules\appium\node_modules\async\lib\async.js:157:25
+    at C:\Program Files (x86)\Appium\node_modules\appium\node_modules\async\lib\async.js:248:21
+    at C:\Program Files (x86)\Appium\node_modules\appium\node_modules\async\lib\async.js:612:34
+    at [object Object].<anonymous> (C:\Program Files (x86)\Appium\node_modules\appium\lib\devices\android\android-common.js:1086:7)
+    at C:\Program Files (x86)\Appium\node_modules\appium\node_modules\appium-adb\lib\adb.js:74:5
+    at [object Object].<anonymous> (C:\Program Files (x86)\Appium\node_modules\appium\node_modules\appium-adb\lib\adb.js:137:5)
+    at [object Object].ADB.checkSdkBinaryPresent (C:\Program Files (x86)\Appium\node_modules\appium\node_modules\appium-adb\lib\adb.js:116:5)
+    at [object Object].ADB.checkAdbPresent (C:\Program Files (x86)\Appium\node_modules\appium\node_modules\appium-adb\lib\adb.js:134:8)
+    at Function.ADB.createADB (C:\Program Files (x86)\Appium\node_modules\appium\node_modules\appium-adb\lib\adb.js:73:7)
+    at [object Object].androidCommon.initAdb (C:\Program Files (x86)\Appium\node_modules\appium\lib\devices\android\android-common.js:1083:9)
+    at C:\Program Files (x86)\Appium\node_modules\appium\node_modules\async\lib\async.js:607:21
+    at C:\Program Files (x86)\Appium\node_modules\appium\node_modules\async\lib\async.js:246:17
+    at iterate (C:\Program Files (x86)\Appium\node_modules\appium\node_modules\async\lib\async.js:146:13)
+    at C:\Program Files (x86)\Appium\node_modules\appium\node_modules\async\lib\async.js:157:25
+    at C:\Program Files (x86)\Appium\node_modules\appium\node_modules\async\lib\async.js:248:21
+    at C:\Program Files (x86)\Appium\node_modules\appium\node_modules\async\lib\async.js:612:34
+    at [object Object].<anonymous> (C:\Program Files (x86)\Appium\node_modules\appium\lib\devices\android\android-common.js:1077:12)
+    at [object Object].<anonymous> (C:\Program Files (x86)\Appium\node_modules\appium\lib\devices\android\android-common.js:1064:12)
+    at ChildProcess.exithandler (child_process.js:742:7)
+&amp#27;[36minfo&amp#27;[39m: [debug] Responding to client with error: {"status":33,"value":{"message":"A new session could not be created. (Original error: Could not find a connected Android device.)","origValue":"Could not find a connected Android device."},"sessionId":null}
+&amp#27;[36minfo&amp#27;[39m: &amp#27;[37m<-- POST /wd/hub/session &amp#27;[39m&amp#27;[31m500&amp#27;[39m&amp#27;[90m 38839.824 ms - 206&amp#27;[39m &amp#27;[90m&amp#27;[39m
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="f" classname="com.apps.AppiumTest.ApiDemoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterTest" classname="com.apps.AppiumTest.ApiDemoTest" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>

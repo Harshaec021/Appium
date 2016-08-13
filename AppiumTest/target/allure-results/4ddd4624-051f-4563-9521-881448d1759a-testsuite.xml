@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1469373435292" stop="1469373465668" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : AppiumTest</name>
+    <title>Default Suite : AppiumTest</title>
+    <test-cases>
+        <test-case start="1469373435571" stop="1469373435594" status="pending">
+            <name>f</name>
+            <failure>
+                <message>Test not implemented yet</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Harsha"/>
+                <label name="thread" value="8564@Harsha.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1469373462571" stop="1469373465625" status="passed">
+            <name>scroll</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Harsha"/>
+                <label name="thread" value="8564@Harsha.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

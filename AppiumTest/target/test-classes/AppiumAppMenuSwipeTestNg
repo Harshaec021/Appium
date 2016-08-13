@@ -2,7 +2,7 @@
 <suite name="Suite" parallel="false">
   <test name="Test">
     <classes>
-      <class name="com.apps.AppiumTest.ApiDemoTest"/>
+      <class name="com.apps.AppiumTest.AppiumAppMenuSwipeTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" verbose="0" name="Failed suite [TestsSuite1]" parallel="tests" allow-return-values="true">
+  <parameter name="BrowserName" value="Emulator_5.1.0"/>
+  <parameter name="MobileVersion" value="6.0.1"/>
+  <parameter name="UdidOrDeviceName" value="192.168.0.103:5555"/>
+  <test name="Test2(failed)" parallel="tests">
+    <parameter name="BrowserName" value="Emulator_5.1.0"/>
+    <parameter name="MobileVersion" value="6.0.1"/>
+    <parameter name="UdidOrDeviceName" value="192.168.0.103:5555"/>
+    <classes>
+      <class name="com.apps.AppiumTest.ScrollBar">
+        <methods>
+          <include name="afterTest"/>
+          <include name="messageAppTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.apps.AppiumTest.ScrollBar -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [TestsSuite1] -->

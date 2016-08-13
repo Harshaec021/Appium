@@ -15,8 +15,12 @@ import io.appium.java_client.service.local.flags.AndroidServerFlag;
 import java.io.File;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.Point;
 import org.openqa.selenium.html5.Location;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -29,14 +33,57 @@ public class ApiDemoTest {
 	AppiumDriverLocalService service;
 	AppiumServiceBuilder builder;
 	AppiumDriver<AndroidElement> driver;
-	
+
 	@Test
+	public void scroll() throws InterruptedException {
+
+		Thread.sleep(3);
+		TouchAction ta=new TouchAction(driver);
+		ta.press(380,1030).moveTo(0,-900);
+		ta.perform();
+		Thread.sleep(2);
+		driver.findElement(By.xpath("//android.widget.TextView[@text='Views']")).click();
+		Thread.sleep(2);
+
+		List<AndroidElement> views;
+		while (true){
+			views= driver.findElements(By.xpath("//android.widget.TextView[@text='WebView']"));
+			if (views.isEmpty()) {
+				ta.press(380, 1030).moveTo(0, -800);
+				ta.perform();
+			}else{
+				views.get(0).click();
+				break;
+			}
+
+		}
+
+		Set<String> con=driver.getContextHandles();
+//		Iterator it=con.iterator();
+		System.out.println(con.toString());
+ boolean FOUND_WEBVIEW;
+		con.forEach(val->{
+
+			if(val.contains("WEBVIEW")){
+
+				driver.context(val);
+
+				driver.findElement(By.xpath("//a[contains(text(),'Hello')]")).click();
+			}
+		});
+
+
+
+
+	}
+	
+	@Test(enabled=false)
 	public void f() {
 		
 		driver.scrollTo("Views").click();
 		driver.scrollTo("Seek Bar").click();
 		
-		AndroidElement seekbar=driver.findElementById("com.example.android.apis:id/seek");
+		AndroidElement seekbar=driver.findElementById("io.appium.android.apis:id/seek");
 		Point loc_seek=seekbar.getLocation();
 		int intx=loc_seek.getX();
 		int inty=loc_seek.getY();
@@ -64,7 +111,7 @@ public class ApiDemoTest {
 	@BeforeTest
 	public void beforeTest() throws MalformedURLException {
 
-		builder = new AppiumServiceBuilder();
+		/*builder = new AppiumServiceBuilder();
 
 		builder.usingPort(4728)
 				.usingDriverExecutable(
@@ -76,7 +123,7 @@ public class ApiDemoTest {
 				
 		service = AppiumDriverLocalService.buildService(builder);
 		service.start();
-
+*/
 		DesiredCapabilities ds = new DesiredCapabilities();
 		ds.setCapability(MobileCapabilityType.APP_ACTIVITY,
 				"com.example.android.apis.ApiDemos");
@@ -97,7 +144,7 @@ public class ApiDemoTest {
 
 	@AfterTest
 	public void afterTest() {
-		service.stop();
+		/*service.stop();*/
 	}
 
 }
